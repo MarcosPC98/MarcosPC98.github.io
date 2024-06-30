@@ -49,3 +49,21 @@ button {
     padding: 10px 20px;
     cursor: pointer;
 }
+
+/* Additional styles for the image section */
+#Who-am-i {
+    display: flex;
+    align-items: center;
+}
+
+#Who-am-i img {
+    max-width: 50%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Blur effect */
+    margin-right: -20px; /* Space between image and text */
+}
+
+#Who-am-i p {
+    flex: 1; /* Text occupies remaining space */
+}
+

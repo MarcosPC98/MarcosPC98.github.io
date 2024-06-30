@@ -3,31 +3,18 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             title: 'Software Project 1',
             description: 'Descripción del Proyecto 1',
-            link: 'https://github.com/tuUsuario/proyecto1'
+            link: 'https://github.com/MarcosPC98'
         },
-        {
-            title: 'Proyecto 2',
-            description: 'Descripción del Proyecto 2',
-            link: 'https://github.com/tuUsuario/proyecto2'
-        }, 
-		{
-            title: 'Proyecto 3',
-            description: 'Descripción del Proyecto 3',
-            link: 'https://github.com/tuUsuario/proyecto2'
-        }
+
     ];
 
     const articles = [
         {
-            title: 'Artículo de Inversión 1',
-            description: 'Descripción del Artículo de Inversión 1',
-            link: 'https://tuBlog.com/articulo1'
+            title: 'Investment Blog',
+            description: 'Here lie my thoughts and journey in the world of investment',
+            link: 'https://mpcinversion.substack.com/'
         },
-        {
-            title: 'Artículo de Inversión 2',
-            description: 'Descripción del Artículo de Inversión 2',
-            link: 'https://tuBlog.com/articulo2'
-        }
+
     ];
 
     const projectList = document.getElementById('project-list');
@@ -47,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         articleElement.innerHTML = `
             <h3>${article.title}</h3>
             <p>${article.description}</p>
-            <a href="${article.link}" target="_blank">Leer Artículo</a>
+            <a href="${article.link}" target="_blank">Substack</a>
         `;
         articleList.appendChild(articleElement);
     });
